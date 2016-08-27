@@ -164,7 +164,7 @@ int main (int argc, char ** argv) {
 	//currentDataSector = 0;
 	
 	if (argc == 3) {
-		currentDataSector = atoi(argv[2]);
+		currentDataSector = atoll(argv[2]);
 	}
 	
 	size_t lastOffset = 0;
@@ -204,7 +204,7 @@ int main (int argc, char ** argv) {
 					cout << "File: " << dir.name << " at " << dev.tellg() << std::endl;
 				}
 			} else {
-				cout << "Junk: " << dir.name << " at " << dev.tellg() << std::endl;
+				//cout << "Junk: " << dir.name << " at " << dev.tellg() << std::endl;
 			}
 		} while (!dir.isDirEnd());
 		
