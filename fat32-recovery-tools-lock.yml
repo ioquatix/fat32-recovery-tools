@@ -1,0 +1,31 @@
+---
+project:
+  :branch: master
+  :commit: b14e4c4f4fd5b5da696fd139d55df573ef865838
+platforms:
+  :branch: master
+  :commit: 51511ae28e42ec4d5e8650ff90bd1d0a753f49ae
+unit-test:
+  :branch: master
+  :commit: c40e76a7fa4d29965eef58b93b535456906ae6c0
+language-cpp-class:
+  :branch: master
+  :commit: cd57a746b22c6ef0c909296e1d7b5c9ef67a10af
+variants:
+  :branch: master
+  :commit: fb49a941780a11eba6f973cc3e018b97c8fef677
+platform-darwin-osx:
+  :branch: master
+  :commit: be7e43542710d2d9ab00aef71f8becd2e81d8f54
+platform-darwin-ios:
+  :branch: master
+  :commit: 0e60a1a4903eabac97ef22d1838175b085deb99b
+build-clang:
+  :branch: master
+  :commit: 1c7202d3495284a81d02949eff31a9b0d741dcf0
+build-darwin:
+  :branch: master
+  :commit: 7729d60c1a015522bc40e6b7067822619135a734
+build-files:
+  :branch: master
+  :commit: d2ec4b0bc08a16f8b6542edf7f60fb2590055b0b
